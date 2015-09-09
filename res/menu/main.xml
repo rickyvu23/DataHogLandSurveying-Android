@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.lucasboehm.datahoglandsurveyingapp.MainActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/mapTypeNormal"
+        android:title="Normal"/>
+    <item
+        android:id="@+id/mapTypeSatellite"
+        android:title="Satellite"/>
+    <item
+        android:id="@+id/mapTypeTerrain"
+        android:title="Terrain"/>
+    <item
+        android:id="@+id/mapTypeHybrid"
+        android:title="Hybrid"/>
+    <item
+        android:id="@+id/Load"
+        android:title="Load Site"/>
+    <item
+        android:id="@+id/Save"
+        android:title="Save site"/>
+    <item
+        android:id="@+id/NewSite"
+        android:title="New Site"/>
+
+</menu>
